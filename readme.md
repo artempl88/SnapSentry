@@ -1,4 +1,7 @@
 # SnapSentry
+<p align="center">
+<img src="https://github.com/artempl88/SnapSentry/blob/main/SnapSentry_logo.png">
+</p>
 SnapSentry is a simple and effective solution for those who want to secure their homes or offices but don't have the budget for expensive video surveillance systems. This script uses your existing webcam to detect and alert you of any unauthorized activity.
 
 ## Features
