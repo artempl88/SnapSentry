@@ -30,7 +30,7 @@ Once you have these dependencies installed, you can clone the repository and run
 ```git clone https://github.com/artempl88/snapsentry.git```
 
 2. Change into the project directory:
-```cd webcam-thief-catcher```
+```cd snapsentry```
 
 3. Install the required packages by the command ```pip install <required package>```:
 - sys
