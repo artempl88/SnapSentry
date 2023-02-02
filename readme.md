@@ -1,5 +1,5 @@
-# WebCam Thief Catcher
-WebCam Thief Catcher is a simple and effective solution for those who want to secure their homes or offices but don't have the budget for expensive video surveillance systems. This script uses your existing webcam to detect and alert you of any unauthorized activity.
+# SnapSentry
+SnapSentry is a simple and effective solution for those who want to secure their homes or offices but don't have the budget for expensive video surveillance systems. This script uses your existing webcam to detect and alert you of any unauthorized activity.
 
 ## Features
 Real-time motion detection
@@ -11,7 +11,7 @@ Windows, Mac, or Linux operating system
 A webcam connected to your computer
 Python 3 installed on your computer
 ## Installation and Setup
-Download the WebCam Thief Catcher script from the repository.
+Download the SnapSentry script from the repository.
 Install the required Python packages by running pip install -r requirements.txt in your terminal or command prompt.
 Update the email configuration in the script to receive email alerts.
 Run the script with the command python webcam_thief_catcher.py
