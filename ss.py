@@ -72,6 +72,7 @@ def start_webcam():
     out.release()
     cv2.destroyAllWindows()
     send_email()
+    start_webcam()    # start recording again
 
 def stop_webcam():
     end_time = datetime.now()
@@ -106,3 +107,7 @@ def send_email():
 
 if __name__ == "__main__":
     start_webcam()
+    
+    
+If no motion is detected for 5 minutes, the script stops recording and sends the recorded video as an email attachment using the smtplib library. After that, the script should start recording the video again. Modify the code and write it in the console.
+    
