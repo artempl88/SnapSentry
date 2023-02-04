@@ -55,9 +55,9 @@ def start_webcam():
                 out.write(frame)
         else:
             timer += 1
-            if timer == 100:  # 5 minutes
+            if timer == 1000:  # 1 minute
                 end_time = datetime.now()
-                print("No movement for 5 minutes, stopped recording: ", end_time)
+                print("No movement for 1 minute, stopped recording: ", end_time)
                 recording = False
                 break
         prev_frame = frame_gray
