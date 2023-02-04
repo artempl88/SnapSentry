@@ -87,7 +87,7 @@ def send_email():
     msg = MIMEMultipart()
     msg['From'] = from_email
     msg['To'] = to_email
-    msg['Subject'] = "Webcam recording"
+    msg['Subject'] = "Motion detected!"
 
     with open("webcam_recording.avi", "rb") as f:
         attachment = MIMEBase("application", "octet-stream")
