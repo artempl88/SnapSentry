@@ -72,7 +72,6 @@ def start_webcam():
     out.release()
     cv2.destroyAllWindows()
     send_email()
-    start_webcam()    # start recording again
 
 def stop_webcam():
     end_time = datetime.now()
